@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Max number:</strong>
+  <%= @mersenne_number.max_number %>
+</p>
+
+<p>
+  <strong>Numbers:</strong>
+  <%= @mersenne_number.numbers %>
+</p>
+
+<%= link_to 'Edit', edit_mersenne_number_path(@mersenne_number) %> |
+<%= link_to 'Back', mersenne_numbers_path %>
